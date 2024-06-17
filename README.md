@@ -1,6 +1,6 @@
 This is Budget Excel, a cheap table editor with formular support.
 
-It supports basic mathematical operations (+, -, *, /, %, !), but you can also reference other table cells (e.g., A1 + B1) and a few named functions, such as pow(-2, 3) or gcd(3, 5) (for power calculation and calculating the greatest common divisor respectively)
+It supports basic mathematical operations (+, -, *, /, %, !), but you can also reference other table cells (e.g., A1 + B1) and do a few named functions, such as pow(-2, 3) or gcd(3, 5) (for power calculation and calculating the greatest common divisor respectively)
 
 For formular support, I've written a recusive descent parser.
 Here is the grammar:
