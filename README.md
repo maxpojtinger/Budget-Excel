@@ -4,7 +4,7 @@ This is Budget Excel, a lightweight spreadsheet editor with full formula support
 
 It supports basic mathematical operations (`+`, `-`, `*`, `/`, `%`, `!`), but you can also reference other table cells (e.g., `=A1+B1`) and use a few named functions, such as `pow(-2, 3)` or `gcd(3, 5)` (for calculating powers and the greatest common divisor, respectively).
 
-For the formula support, I implemented a custom **Recursive Descent Parser** from scratch.
+For the formula support, I implemented a custom **Recursive Descent Parser**.
 
 ## How to use formulas
 1. Select any cell in the table.
