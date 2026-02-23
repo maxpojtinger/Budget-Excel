@@ -20,7 +20,7 @@ NUMBER  -> [ Digit { Digit } ] '.' Digit { Digit } | Digit { Digit }
 
 ENTRY   -> Letter { Letter } NonZeroDigit { Digit }
 
-NonZeroDigit -> '1' | '2' | ... | '9'
+NonZeroDigit -> '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9'
 
 Here is how the formular support works:
 ------
